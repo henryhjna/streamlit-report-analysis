@@ -1,0 +1,37 @@
+# 💾 Python 가상 환경 관련
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📄 환경 변수 및 API 키 파일
+.env
+*.secrets
+config.json
+
+# 📂 Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# 📝 Streamlit 캐시 및 임시 파일
+.streamlit/
+logs/
+tmp/
+cache/
+
+# 📦 패키지 관련 파일
+node_modules/
+*.egg-info/
+dist/
+build/
+
+# 💡 IDE 및 시스템 관련 파일
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# 📜 Git 관련 파일
+.git/
